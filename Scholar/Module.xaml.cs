@@ -17,9 +17,9 @@ namespace Scholar
     /// <summary>
     /// Interaction logic for Module.xaml
     /// </summary>
-    public partial class TheModules : Window
+    public partial class Module : Window
     {
-        public TheModules(User user, int a)
+        public Module(User user, int a)
         {
             InitializeComponent();
             if(a == 1)

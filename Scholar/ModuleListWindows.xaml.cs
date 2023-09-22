@@ -22,19 +22,20 @@ namespace Scholar
         public ModuleListWindows(User user)
         {
             InitializeComponent();
+            ModuleList.ItemsSource = user.modules;
             
         }
 
         private void ViewModule_Click(object sender, RoutedEventArgs e, User user)
         {
-            TheModules module = new TheModules(user, 1);
+            Module module = new Module(user, 1);
             module.Show();
             this.Hide();
         }
 
         private void AddModule_Click(object sender, RoutedEventArgs e, User user)
         {
-            TheModules module = new TheModules(user, 2);
+            Module module = new Module(user, 2);
             module.Show();
             this.Hide();
 

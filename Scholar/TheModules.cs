@@ -11,7 +11,7 @@ namespace Scholar
         public string ModuleCode { get; set; }
         public string ModuleName { get; set; }
         public int ModuleCredit { get; set; }
-        public string ClassHoursPerWeek { get; set; }
+        public int ClassHoursPerWeek { get; set; }
 
     }
 }

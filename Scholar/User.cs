@@ -10,6 +10,6 @@ namespace Scholar
     {
         public int week { get; set; }
         public DateTime semesterDate { get; set; }
-        public List<TheModules> modules = new List<TheModules>();
+        public List<TheModules> modules { get; set; }
     }
 }

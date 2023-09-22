@@ -20,7 +20,7 @@ namespace Scholar
     /// </summary>
     public partial class ModuleDetails : Page
     {
-        public ModuleDetails()
+        public ModuleDetails(User user)
         {
             InitializeComponent();
         }

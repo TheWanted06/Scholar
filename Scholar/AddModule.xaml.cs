@@ -28,7 +28,12 @@ namespace Scholar
         private void btnOK_Click(object sender, RoutedEventArgs e, User user)
         {
             TheModules module = new TheModules();
-            module.Name = txtName.Text;
+            module.ModuleName = txtName.Text;
+            module.ModuleCode = txtCode.Text;
+            module.ModuleCredit = Int16.Parse(txtNoC.Text);
+            module.ClassHoursPerWeek = Int16.Parse(txtCHpW.Text);
+
+            user.modules.Add(module);
 
         }
 

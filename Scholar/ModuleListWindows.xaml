@@ -15,7 +15,7 @@
                 <ListBox Name="ModuleList" />
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Button Name="ViewModule" Content="View" Click="ViewModule_Click" Width="80" Height="20"/>
-                    <Button Name="AddModule" Content="Add Module" Click="AddModule_Click" Width="80" Height="20" Click="AddModule_Click_1"/>
+                    <Button Name="AddModule" Content="Add Module" Click="AddModule_Click" Width="80" Height="20" />
                 </StackPanel>
                 
             </StackPanel>
