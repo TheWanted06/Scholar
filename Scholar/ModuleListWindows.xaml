@@ -1,0 +1,27 @@
+﻿<Window x:Class="Scholar.ModuleListWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scholar"
+        mc:Ignorable="d"
+        Title="ModuleListWindows" Height="500" Width="600">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="50">
+            
+            
+            <StackPanel>
+                <Label Content="Currrent modules" FontSize="20"/>
+                <ListBox Name="ModuleList" />
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button Name="ViewModule" Content="View" Click="ViewModule_Click" Width="80" Height="20"/>
+                    <Button Name="AddModule" Content="Add Module" Click="AddModule_Click" Width="80" Height="20" Click="AddModule_Click_1"/>
+                </StackPanel>
+                
+            </StackPanel>
+            
+
+        </Border>
+
+    </Grid>
+</Window>
